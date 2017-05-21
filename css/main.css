@@ -89,3 +89,36 @@ a:link, a:visited {
 a:hover, a.selected {
   color: red;
 }
+
+/*************************
+Gallery
+*************************/
+
+.projects  {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.projects li {
+  float: left;
+  width: 40%;
+  margin: 5%;
+  color: black;
+}
+
+.projects li p {
+  text-align: center;
+  font-size: 1.7rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.site1 {
+  width: 30%;
+  margin-left: 33.3333%;
+  text-align: center;
+}
+
+.site1:hover {
+  border-bottom: 2px solid red;
+}
