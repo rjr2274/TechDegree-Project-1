@@ -1,3 +1,10 @@
+/************************
+  @author: Ronald Rosa
+  Version Date: 5/21/2017
+************************/
+
+
+
 /* Global Layout Set-up */
 * {
   box-sizing: border-box;
@@ -136,29 +143,26 @@ ul.skills {
   background: #0399ff;
 }
 
-ul.goal_icon {
-  max-width: 20%;
+.goal_icon {
   list-style: none;
   margin: 0;
-  text-align: center;
-}
-
-.goal_icon li {
-  display: inline-block;
+  padding: 0;
 }
 
 .fb_icon {
-  height: auto;
-  width: auto;
-  max-width: 100px;
-  max-height: 100px;
+  float: left;
+  max-width: 50px;
+  max-height: 50px;
+  margin-left: 30%;
+  border-radius: 50%;
 }
 
 .google_icon {
-  height: auto;
-  width: auto;
-  max-width: 100px;
-  max-height: 100px;
+  float: right;
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 30%;
+  border-radius: 50%;
 }
 
 footer {
