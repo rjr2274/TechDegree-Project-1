@@ -136,6 +136,31 @@ ul.skills {
   background: #0399ff;
 }
 
+ul.goal_icon {
+  max-width: 20%;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+
+.goal_icon li {
+  display: inline-block;
+}
+
+.fb_icon {
+  height: auto;
+  width: auto;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.google_icon {
+  height: auto;
+  width: auto;
+  max-width: 100px;
+  max-height: 100px;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
